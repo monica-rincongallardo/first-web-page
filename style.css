@@ -1,0 +1,192 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: justify;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    text-align: right;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 12px 16px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+nav ul li a:hover{
+    background-color: #ff7f32;
+    border-radius: 4px;
+}
+
+
+.main-content{
+    padding: 20px 20px;
+}
+
+.welcome{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.welcome h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+.welcome-img{
+    max-width: 50%;
+    height: auto;
+}
+
+.welcome-p{
+    font-size: 1.2em;
+}
+
+
+.characters{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.title{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.subtitle{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img{
+    width: 75%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h3{
+    font-size: 1.6em;
+    margin-top: 10px;
+    
+}
+
+.card p{
+    font-size: 1em;
+}
+
+.characters a{
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 12px;
+    display: inline-block;
+    font-weight: 500;
+    background-color: #6a7f5d;
+    border-radius: 4px;
+    margin: 40px;
+}
+
+.characters a:hover{
+    background-color: #56654d;
+}
+
+.episodes a{
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 12px;
+    display: inline-block;
+    font-weight: 500;
+    background-color: #3a6ea5;
+    border-radius: 4px;
+    margin: 40px;
+}
+
+.episodes a:hover{
+    background-color: #3a638f;
+}
+
+.character{
+    padding-bottom: 30px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #a3a1a1;
+}
+
+.return{
+    text-align: center;
+}
+
+.back{
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 12px;
+    display: inline-block;
+    font-weight: 500;
+    background-color: #9c1c2d;
+    border-radius: 4px;
+    margin: 40px; 
+}
+
+.back:hover{
+    background-color: #851a29;
+}
+
+.footer{
+    background-color: #333;
+    color: fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer p{
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.footer a{
+    color: #ffffff;
+}
